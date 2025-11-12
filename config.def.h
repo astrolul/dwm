@@ -8,8 +8,12 @@ static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+#ifndef ICONSIZE
 #define ICONSIZE 32   /* icon size */
+#endif
+#ifndef ICONSPACING
 #define ICONSPACING 8 /* space between icon and title */
+#endif
 #ifndef FONT_SIZE
 #define FONT_SIZE 10  /* Default font size if not overridden at compile time */
 #endif
