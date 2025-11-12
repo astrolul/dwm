@@ -11,7 +11,10 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 #define ICONSIZE 32   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 static const int user_bh            = 48;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
-static const char *fonts[]          = { "FiraCode Nerd Font Mono:style=Regular:size=14" };
+static const char *fonts[]          = { 
+        "FiraCode Mono:style=Regular:size=14",
+        "FiraCode Nerd Font Mono:style=Regular:size=18",
+};
 static const char dmenufont[]       = "monospace:size=10";
 static const char *brupcmd[] 		= { "brightnessctl", "set", "10%+", NULL };
 static const char *brdowncmd[] 		= { "brightnessctl", "set", "10%-", NULL };
