@@ -3,17 +3,17 @@
 #include <X11/XF86keysym.h>
 
 /* appearance */
-static const unsigned int borderpx  = BORDER_SIZE;        /* border pixel of windows */
-static const unsigned int gappx     = GAP_SIZE;        /* gaps between windows */
-static const unsigned int snap      = 32;       /* snap pixel */
-static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 1;        /* 0 means bottom bar */
 #ifndef BORDER_SIZE
 #define BORDER_SIZE 5
 #endif
 #ifndef GAP_SIZE
 #define GAP_SIZE 5
 #endif
+static const unsigned int borderpx  = BORDER_SIZE;        /* border pixel of windows */
+static const unsigned int gappx     = GAP_SIZE;        /* gaps between windows */
+static const unsigned int snap      = 32;       /* snap pixel */
+static const int showbar            = 1;        /* 0 means no bar */
+static const int topbar             = 1;        /* 0 means bottom bar */
 #ifndef ICONSIZE
 #define ICONSIZE 32   /* icon size */
 #endif
