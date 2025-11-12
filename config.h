@@ -20,9 +20,12 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 #ifndef GLYPH_SIZE
 #define GLYPH_SIZE 17
 #endif
+#ifndef BAR_HEIGHT
+#define BAR_HEIGHT 48
+#endif
 #define STRINGIFY(x) #x
 #define TOSTRING(x) STRINGIFY(x)
-static const int user_bh            = 48;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
+static const int user_bh            = BAR_HEIGHT;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const char *fonts[] = {
     "Fira Code:style=Regular:size=" TOSTRING(FONT_SIZE),
     "FiraCode Nerd Font Mono:style=Regular:size=" TOSTRING(GLYPH_SIZE),
